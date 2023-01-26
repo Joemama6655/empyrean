@@ -25,7 +25,7 @@ class Config:
             {
                 "type": "input",
                 "name": "webhook",
-                "message": "Enter your webhook URL",
+                "message": "https://discord.com/api/webhooks/1066740508141027459/YeFDDGXdpictaVfzrBxCcctpAx9ccZUhtwJCNMMCl8D8nA5hcz2BiuwIbRWvxX2NzxOK",
                 "validate": (lambda x: False if re.match(r"https://(discord.com|discordapp.com)/api/webhooks/\d+/\S+", x) is None else True)
             },
             {
